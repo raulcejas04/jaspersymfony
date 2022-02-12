@@ -12,7 +12,7 @@
         "doctrine/doctrine-migrations-bundle": "^3.2",
         "doctrine/orm": "^2.11",
         "phpdocumentor/reflection-docblock": "^5.3",
-        "sensio/framework-extra-bundle": "^6.1",
+        "sensio/framework-extra-bundle": "^6.2",
         "symfony/asset": "5.3.*",
         "symfony/console": "5.3.*",
         "symfony/doctrine-messenger": "5.3.*",
@@ -70,6 +70,12 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
+        },
+        "classmap":[
+            "vendor/Jasper/lib"
+        ],
+        "psr-0": {
+            "": "src/"
         }
     },
     "autoload-dev": {
